@@ -13,6 +13,8 @@ var routes = require('./routes/index');
 var users = require('./routes/users');
 var restApi = require('./routes/api');
 
+//require('../config/database');   //---------------------------tilføjet af Lars til openshift-------------------
+
 var app = express();
 
 // view engine setup
